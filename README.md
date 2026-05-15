@@ -57,6 +57,9 @@ The project includes:
 
 ## Project Structure
 
+## Project Structure
+
+```text
 explainable-credit-risk-prediction/
 │
 ├── data/
@@ -83,3 +86,4 @@ explainable-credit-risk-prediction/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
