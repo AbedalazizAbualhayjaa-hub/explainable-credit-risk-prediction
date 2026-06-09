@@ -1,8 +1,8 @@
+streamlit
 pandas
 numpy
-matplotlib
-seaborn
 scikit-learn
-shap
 joblib
-jupyter
+matplotlib
+plotly
+shap
