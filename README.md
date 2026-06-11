@@ -22,6 +22,12 @@ The dataset contains applicant and financial attributes, including credit amount
 * Compare model results using evaluation metrics.
 * Explain model predictions using explainable AI techniques.
 * Present the results in a technical report.
+* Deploy the trained model as an interactive Streamlit web application.
+
+
+## Best Model
+
+Logistic Regression achieved the strongest overall performance with a ROC-AUC of approximately 0.806, making it the default model used in the deployed web application.
 
 ## Models Used
 
