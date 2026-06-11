@@ -8,7 +8,7 @@ The project includes data understanding, preprocessing, model training, comparis
 
 ## Live Demo
 
-Streamlit app:
+Streamlit app: https://explainable-credit-risk-prediction.streamlit.app/
 
 ## Key Features
 
