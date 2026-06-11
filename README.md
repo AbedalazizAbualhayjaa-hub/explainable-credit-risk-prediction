@@ -6,6 +6,21 @@ This project applies machine learning to predict credit risk using the German Cr
 
 The project includes data understanding, preprocessing, model training, comparison, evaluation, and explainability analysis.
 
+## Live Demo
+
+Streamlit app:
+
+## Key Features
+
+- Interactive credit-risk prediction form
+- Lower/higher risk probability output
+- Risk-level gauge chart
+- Applicant summary table
+- Dataset overview dashboard
+- Model performance comparison
+- Simple risk-factor interpretation
+- Deployed Streamlit web application
+
 ## Dataset
 
 The dataset used in this project is the German Credit dataset from the UCI Machine Learning Repository.
@@ -16,18 +31,19 @@ The dataset contains applicant and financial attributes, including credit amount
 
 ## Project Objectives
 
-* Understand and explore the German Credit dataset.
-* Clean and preprocess the data for machine learning.
-* Train multiple classification models.
-* Compare model results using evaluation metrics.
-* Explain model predictions using explainable AI techniques.
-* Present the results in a technical report.
-* Deploy the trained model as an interactive Streamlit web application.
+- Understand and explore the German Credit dataset.
+- Clean and preprocess the data for machine learning.
+- Train multiple classification models.
+- Compare model results using evaluation metrics.
+- Explain model predictions using explainable AI techniques.
+- Deploy the trained model as an interactive Streamlit web application.
+- Present the results in a technical report.
 
 
 ## Best Model
 
 Logistic Regression achieved the strongest overall performance with a ROC-AUC of approximately 0.806, making it the default model used in the deployed web application.
+
 
 ## Models Used
 
@@ -37,6 +53,10 @@ The following models were trained and evaluated:
 * Decision Tree
 * Random Forest
 * HistGradientBoosting
+
+## Best Model
+
+Logistic Regression achieved the strongest overall performance with a ROC-AUC of approximately 0.806, making it the default model used in the deployed web application.
 
 ## Evaluation Metrics
 
@@ -60,6 +80,10 @@ The project includes:
 * SHAP summary plot
 * SHAP bar plot
 * SHAP waterfall plots for individual applicants
+
+## App Screenshots
+
+Screenshots will be added after deployment.
 
 ## Project Structure
 
@@ -87,8 +111,14 @@ explainable-credit-risk-prediction/
 ├── reports/
 │   └── Abedalaziz_Credit_Risk_Report.docx
 │
-├── app.py
 ├── .gitignore
+├── app.py
 ├── README.md
 └── requirements.txt
+
 ```
+
+## Limitations
+
+This project is intended for educational and portfolio purposes. It should not be used for real lending decisions. The model was trained on the German Credit dataset, which may not represent modern real-world credit systems.
+
