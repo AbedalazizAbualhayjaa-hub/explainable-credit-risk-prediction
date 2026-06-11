@@ -57,8 +57,6 @@ The project includes:
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 explainable-credit-risk-prediction/
 │
@@ -83,6 +81,7 @@ explainable-credit-risk-prediction/
 ├── reports/
 │   └── Abedalaziz_Credit_Risk_Report.docx
 │
+├── app.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt
